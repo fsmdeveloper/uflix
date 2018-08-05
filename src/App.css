@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  color: #666 !important;
+}
+
+body {
+  height: 100%;
+  padding: 30px;
+  font-family: 'Lato', sans-serif;
+}
+
+.header-cover {
+  height: 95vh;
+  background: linear-gradient( to left bottom, #43a047b8, #1e88e5ba, #7cb342c2), url('./img/header-cover.jpg');
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(0 0, 100% 0, 100% 80vh, 0% 100%);
+  position: relative;
+}
+
+.logo-box {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #fff;
+}
+
+.logo {
+  height: 80px;
+  color: #fff;
+}
+
+.text-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.heading-primary {
+  text-transform: uppercase;
+}
+
+.heading-primary-main {
+  color: #fff !important;
+  font-size: 70px;
+  font-weight: 800;
+  letter-spacing: 25px;
+}
+
+.heading-cover-main {
+  color: #fff !important;
+  font-size: 40px;
+  font-weight: 800;
+  letter-spacing: 10px;
+}
+
+.movies {
+  margin-top: 20px;
+  height: 100%;
+  background: linear-gradient( to left bottom, #f1f1f1bf, #f3f3f37a, #ffffff7d);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  box-shadow: 20px 20px 50px grey;
+  position: relative;
+}
+
+.title {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 5%;
+  left: 50%;
+}
+
+.movies-list {
+  margin-top: 100px;
+  padding: 25px;
+}
+
+.card img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.footer {
+  height: 15vh;
+  background: linear-gradient( to left bottom, #212529a1, #1b1c1dd1, #343a40b0);
+  position: relative;
+  margin-top: 90px;
+}
+
+.footer-box {
+  position: absolute;
+  color: #fff !important;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ui.cards>.card {
+  margin: 1.875em -0.5em !important;
+}
+
+.loader {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+a {
+  color: #007bff;
+  text-decoration: none !important;
+  background-color: transparent;
+}
+
+.single-cover {
+  height: 95vh;
+  background: linear-gradient( to left bottom, #dc3545c7, rgba(0, 123, 255, 0.17), #dc3545c9), url('./img/outlast.jpg');
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(0 0, 100% 0, 100% 80vh, 0% 100%);
+  position: relative;
+}
+
+.single-movie-section {
+  margin-top: 20px;
+  height: 100%;
+  background: linear-gradient( to left bottom, #f1f1f1bf, #f3f3f37a, #ffffff7d);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  box-shadow: 20px 20px 50px grey;
+  position: relative;
+}
+
+.movie-poster {
+  padding: 20px;
+}
+
+.movie-poster img {
+  max-width: 100%;
+  max-height: 100%;
+  min-width: 100% !important;
+}
+
+.poster img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.movie-info {
+  padding: 30px;
+}
+
+.movie-info-item {
+  display: block;
+}
+
+.movie-info-item ul {
+  list-style: none;
+}
+
+.movie-info-item ul li,
+b {
+  padding: 1px;
+  font-size: 18px;
+}
+
+.single-loader {}
+
+.ui.card>.image:not(.ui)>img,
+.ui.cards>.card>.image:not(.ui)>img {
+  border: none;
+  height: 388px;
+}
+
+.delete {
+  height: 95vh;
+  background: linear-gradient( to left bottom, #43a047b8, #1e88e5ba, #7cb342c2);
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(0 0, 100% 0, 100% 80vh, 0% 100%);
+  position: relative;
+}
+
+.msg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.msg h3 {
+  width: 100%;
+  color: #fff !important;
+}
+
+.create {
+  position: absolute;
+  top: 6%;
+  transform: translate(-50%, -50%);
+  left: 84%;
+}
